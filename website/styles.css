@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family:  monospace;
+  background-image: url('2997.jpg');
+  background-repeat: y;
+  background-size: 100%;
+}
+
+nav{
+  background: #33325c;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  font-weight: bold;
+}
+a.active,a:hover {
+  background: #e3c36d;
+  transition: .5s;
+}
+#bold {
+  color: #33325c;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 400px
+}
+#hello {
+  font-size: 17px;
+  font-style: italic;
+}
+#howdy {
+  font-size: 30px;
+  font-style: italic;
+  text-transform: none;
+}
+.container {
+  position: relative;
+  width: 350px;
+}
+
+.image {
+  display: block;
+  width: 350px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  #e3c36d;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#z {
+  padding: 0 170px;
+}
+
+#v {
+  width: 350px;
+}
